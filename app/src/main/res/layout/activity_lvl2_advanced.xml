@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6F6BC0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_header_background"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/headerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Обучение"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/profileIcon"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/profile" />
+        </LinearLayout>
+
+
+
+        <!-- Здесь ваш текущий код разметки -->
+
+        <ImageView
+            android:id="@+id/imageView_nachalo"
+            android:layout_width="259dp"
+            android:layout_height="283dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="107dp"
+            android:layout_marginEnd="80dp"
+            app:srcCompat="@drawable/pers_fon3" />
+
+        <TextView
+            android:id="@+id/textView_nachalo2"
+            android:layout_width="331dp"
+            android:layout_height="325dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="-145dp"
+            android:gravity="center"
+            android:text="Грамматика и Предложения
+Теперь перейдем к грамматике и составлению предложений с новыми словами:
+
+Яңалык - это ключевой элемент успешного бизнеса.
+Стратегиясе в бизнесе играет определяющую роль.
+Үсеш сотрудников - это основа стабильного роста компании.
+Җитештерү высококачественной продукции - это гарантия долгосрочного успеха."
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button_nachalo33"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:backgroundTint="#423E96"
+            android:text="Дальше!" />
+
+        <!-- Ваш текущий заголовок -->
+
+
+
+    </LinearLayout>
+</ScrollView>
